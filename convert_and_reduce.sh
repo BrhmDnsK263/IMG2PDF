@@ -18,7 +18,7 @@ export PDF_FOLDER="$pdf_folder"
 # create virtual environment for python if it doesn't exist
 if [ ! -d "$venv_name" ]; then
     echo "creating python virtual environment..."
-    python3.9 -m venv "$venv_name"
+    python3.11 -m venv "$venv_name"
     echo "python virtual environment created."
 else
     echo "python virtual environment already exists."
